@@ -7,7 +7,6 @@ const LoginPage = () => {
   const [mode, setMode] = useState('login');
   const [form, setForm] = useState({ name: '', email: 'demo@interviewai.in', password: 'demo1234', college: '', role: 'student' });
   const [loading, setLoading] = useState(false);
-  const [step, setStep] = useState(1);
 
   const handleSubmit = async (e) => {
     e.preventDefault();

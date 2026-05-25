@@ -58,6 +58,7 @@ const LandingPage = () => {
       }
     }, 70);
     return () => clearInterval(interval);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phraseIdx]);
 
   return (
@@ -389,7 +390,7 @@ const LandingPage = () => {
                 <div className="font-semibold text-white mb-4">{col.title}</div>
                 <ul className="space-y-2">
                   {col.links.map((link, j) => (
-                    <li key={j}><a href="#" className="text-slate-500 text-sm hover:text-slate-300 transition-colors">{link}</a></li>
+                    <li key={j}><button className="text-slate-500 text-sm hover:text-slate-300 transition-colors">{link}</button></li>
                   ))}
                 </ul>
               </div>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, LineChart, Line, CartesianGrid } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 
 const users = [
   { id: 1, name: 'Priya Menon', email: 'priya@iitd.ac.in', college: 'IIT Delhi', plan: 'Pro', interviews: 89, status: 'active', joined: '2025-01-10' },
