@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import {
   RadarChart, Radar, PolarGrid, PolarAngleAxis, ResponsiveContainer,
-  AreaChart, Area, XAxis, YAxis, Tooltip, BarChart, Bar, CartesianGrid, Legend
+  AreaChart, Area, XAxis, YAxis, Tooltip, BarChart, Bar
 } from 'recharts';
 
 const weeklyData = [

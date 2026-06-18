@@ -19,7 +19,6 @@ const categories = ['Overall', 'Technical', 'HR', 'System Design', 'This Week'];
 
 const Leaderboard = () => {
   const [category, setCategory] = useState('Overall');
-  const [showUser, setShowUser] = useState(true);
 
   const topThree = leaderboardData.slice(0, 3);
   const rest = leaderboardData.slice(3).filter(u => !u.isUser);

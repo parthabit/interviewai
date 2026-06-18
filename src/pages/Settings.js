@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useApp } from '../context/AppContext';
 
 const Settings = () => {
-  const { user, logout } = useApp();
+  const { user } = useApp();
   const [tab, setTab] = useState('profile');
   const [saved, setSaved] = useState(false);
 
