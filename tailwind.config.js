@@ -4,7 +4,7 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
-      fontFamily: {
+      fontFamily: { 
         sans: ['Plus Jakarta Sans', 'sans-serif'],
         mono: ['JetBrains Mono', 'monospace'],
         display: ['Clash Display', 'Plus Jakarta Sans', 'sans-serif'],
