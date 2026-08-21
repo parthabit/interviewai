@@ -6,7 +6,6 @@ Deploy your app live in ~20 minutes using:
 - **Database** → MongoDB Atlas (free 512MB)
 
 ---
-
 ## Step 1 — Push to GitHub
 
 ```bash
