@@ -7,6 +7,6 @@ build/
 backend/.env
 backend/.env.production
 *.log
-.DS_Store
+.DS_Store 
 *.zip
 coverage/
